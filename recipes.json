@@ -15,14 +15,14 @@
       ],
       "steps": [
         {"id": 0, "type": "info", "description": "Put the filter into the cap. Don't rinse or preheat the brewer (it doesn't make any difference)"},
-        {"id": 0, "type": "info", "description": "Put coffee into the brewer"},
-        {"id": 0, "type": "info", "description": "Place on scales and then add water, aiming to wet all the coffee during pouring"},
-        {"id": 0, "type": "info", "description": "Start a timer, and immediately place the piston piece into the top of the brewer, about 1cm in"},
-        {"id": 0, "type": "wait", "description": "Wait 2 minutes", "startTimer": true, "duration": 120 },
-        {"id": 0, "type": "info", "description": "Holding the brewer and the piston, gently swirl the brewer"},
-        {"id": 0, "type": "wait", "description": "Wait 30 seconds", "duration": 30 },
-        {"id": 0, "type": "info", "description": "Press gently all the way"},
-        {"id": 0, "type": "info", "description": "Drink and enjoy!"}
+        {"id": 1, "type": "info", "description": "Put coffee into the brewer"},
+        {"id": 2, "type": "info", "description": "Place on scales and then add water, aiming to wet all the coffee during pouring"},
+        {"id": 3, "type": "info", "description": "Start a timer, and immediately place the piston piece into the top of the brewer, about 1cm in"},
+        {"id": 4, "type": "wait", "description": "Wait 2 minutes", "startTimer": true, "duration": 120 },
+        {"id": 5, "type": "info", "description": "Holding the brewer and the piston, gently swirl the brewer"},
+        {"id": 6, "type": "wait", "description": "Wait 30 seconds", "duration": 30 },
+        {"id": 7, "type": "info", "description": "Press gently all the way"},
+        {"id": 8, "type": "info", "description": "Drink and enjoy!"}
       ]
     }
   ]
