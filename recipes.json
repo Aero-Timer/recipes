@@ -1,1 +1,29 @@
-[]
+{
+  "recipes":
+  [
+    {
+      "name": "James Hoffmann's Ultimate AeroPress Technique",
+      "author": "James Hoffmann",
+      "description": "James Hoffmann's Ultimate AeroPress Technique. \n11g coffee (ground at the finer end of medium, assuming this is light roasted coffee. The darker you go the more you may prefer to increase the dose and coarsen the grind.)\n200g water (brought to a boil and used immediately).",
+      "type": "aeropress",
+      "ratio": {
+        "coffee": 11,
+        "water": 200
+      },
+      "externalLinks": [
+        { "name": "youtube", "url": "https://www.youtube.com/watch?v=j6VlT_jUVPc" }
+      ],
+      "steps": [
+        {"id": 0, "type": "info", "description": "Put the filter into the cap. Don't rinse or preheat the brewer (it doesn't make any difference)"},
+        {"id": 0, "type": "info", "description": "Put coffee into the brewer"},
+        {"id": 0, "type": "info", "description": "Place on scales and then add water, aiming to wet all the coffee during pouring"},
+        {"id": 0, "type": "info", "description": "Start a timer, and immediately place the piston piece into the top of the brewer, about 1cm in"},
+        {"id": 0, "type": "wait", "description": "Wait 2 minutes", "startTimer": true, "duration": 120 },
+        {"id": 0, "type": "info", "description": "Holding the brewer and the piston, gently swirl the brewer"},
+        {"id": 0, "type": "wait", "description": "Wait 30 seconds", "duration": 30 },
+        {"id": 0, "type": "info", "description": "Press gently all the way"},
+        {"id": 0, "type": "info", "description": "Drink and enjoy!"}
+      ]
+    }
+  ]
+}
